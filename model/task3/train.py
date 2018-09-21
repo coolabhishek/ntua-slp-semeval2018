@@ -1,6 +1,6 @@
-from semeval2018.data.task3 import parse
-from semeval2018.model.configs import TASK3_A, TASK3_B
-from semeval2018.util.boiler import define_trainer, model_training
+from dataloaders.task3 import parse
+from model.params import TASK3_A, TASK3_B
+from utils.train import define_trainer, model_training
 
 TASK = 'a'
 # select config by args.task

@@ -579,9 +579,11 @@ class Trainer:
         Returns:
 
         """
-        print("\t{:6s} - ".format(tag), end=" ")
+
+        print
+        print("\t{:6s} - ".format(tag))
         for name, value in scores.items():
-            print(name, '{:.4f}'.format(value), end=", ")
+            print(name, '{:.4f}'.format(value))
         print(" Loss:{:.4f}".format(loss))
 
     def log_training(self, name, desc):

@@ -1,6 +1,8 @@
 import os
 
-from config import DATA_DIR
+
+# from config import DATA_DIR
+DATA_DIR = "/Users/asingh3/Documents/Personal/UNT/git/ntua-slp-semeval2018/datasets"
 
 
 class TASK1(object):
