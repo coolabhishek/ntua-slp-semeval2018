@@ -12,7 +12,13 @@ EXPS_PATH = os.path.join(BASE_PATH, "out/experiments")
 
 ATT_PATH = os.path.join(BASE_PATH, "out/attentions")
 
-DATA_DIR = os.path.join(BASE_PATH, 'datasets')
+DATA_DIR = os.path.join(BASE_PATH, 'datasets/QueryExpansion/Method1')
+
+QUERY_EXPANSION_METHOD1 = os.path.join(DATA_DIR, 'QueryExpansion/Method1/')
+QUERY_EXPANSION_METHOD2 = os.path.join(DATA_DIR, 'QueryExpansion/Method/')
+QUERY_EXPANSION_METHOD3 = os.path.join(DATA_DIR, 'QueryExpansion/Method3/')
+
+
 
 
 class TASK1(object):

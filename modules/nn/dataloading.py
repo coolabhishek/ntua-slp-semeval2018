@@ -193,7 +193,7 @@ class WordDataset(BaseDataset):
             dicts=[emoticons]
         ).pre_process_doc
 
-        desc = "PreProcessing dataset {}...".format(name)
+        desc = "PreProcessing dataset 196 {}...".format(name)
 
         data = [preprocessor(x) for x in tqdm(dataset, desc=desc)]
         return data
@@ -296,7 +296,7 @@ class CharDataset(BaseDataset):
         print()
 
     def preprocess(self, name, dataset):
-        desc = "PreProcessing dataset {}...".format(name)
+        desc = "PreProcessing dataset 299 {}...".format(name)
         data = [[c.lower() for c in x] for x in tqdm(dataset, desc=desc)]
         return data
 
